@@ -1,0 +1,147 @@
+body{
+    
+}
+.container {
+    width: 68%;
+    height: 100%;
+    margin-left: 230px;
+}
+.container .child{
+    margin: 15px;
+    height: 220px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.container .child-two{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    margin: 15px;
+    margin-right: 50%;
+    width: 98%;
+    justify-content: space-between;
+}
+.container .child .bg-flag{
+    width: 66%;
+    max-height: 220px;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.95;
+    border-radius: 10px;
+}
+.container .child h4{
+    margin-left: 130px;
+    position: absolute;
+    margin-top: 30px;
+    
+}
+
+.container .child .membership-card{
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+    width: 100%;
+}
+.container .child .membership-card .membership{
+    padding: 55px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+
+}
+.container .child .membership-card .membership h1{
+    margin: 0px 0px 0px 77px;
+
+}
+.child .active-members{
+    width: 60%;
+    height: 218px;
+}
+button{
+
+    width: 58%;
+    height: 20%;
+    border-radius: 30px;
+    margin: 87px 0px 0px 77px;
+    cursor: pointer;
+
+}
+input[type="text"]
+{
+    font-size: 36px;
+    color: #eee;
+    text-align: center;
+    border: none;
+    text-decoration: underline;
+    width: 75px;
+    margin: 0px 0px 0px 70px;
+}
+
+ input{
+    background: transparent;
+    text-size-adjust: 50px;
+ }
+ .membership span{
+    font-size: xx-large;
+ }
+
+.child-two .ekipa{
+    background-image: url('Images/igraci.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.child-two .text h2{
+    color: #fff;
+    background-color: rgba(0,0,0, 0.4);
+    width: 100%;
+    margin-top: 50%;
+    text-align: center;
+}
+.child-two .ekipa .news-box{
+    padding: 5px;
+   
+}
+.child-two .ekipa .news-box h5{
+    color: #fff;
+    padding: 5px;
+    background-color: #0f116f;
+    width: 15%;
+}
+.child-two .next-match{
+    max-height: 50%;
+    margin: 0px 9px 0px 6px;
+    border: 1px solid black;
+    background-image: url('images/bluebg.jpg');
+
+}
+.child-two .next-match .next-match-child{
+    text-align: center;
+    color: #fff;
+    
+    
+}
+.child-two .next-match .next-match-child img{
+    width: 15%;
+    margin: 0px 60px 0px 60px;
+}
+.child-two .next-match .next-match-child .team-names h5{
+    display: inline-block;
+    margin: 0px 59px 0px 69px;
+}
+
+.pl-table{
+    margin: 18px 0px 0px 0px;
+    width: 100%;
+    text-align: center;  
+       
+}
+.pl-table td {
+    border-bottom: 1px solid #d8d8d8;
+    gap: 0;
+}
+.iskra{
+    background-color: #eee;
+}
